@@ -5,11 +5,15 @@ body {
 .center {
   text-align: center;
 }
+/* start header section   */
 .orange-color {
   color: #e55039;
 }
 h1 {
   font-size: 50px;
+}
+h2 {
+  font-size: 40px;
 }
 .flexible-container {
   display: flex;
@@ -43,7 +47,7 @@ h1 {
 }
 /*.............................
 ................................
- mission section start */
+ activities section start */
 .activites {
   width: 30%;
   margin-left: 2%;
@@ -69,7 +73,16 @@ h1 {
   border: 2px solid gray;
   border-radius: 26px;
 }
-
+.actual-activities {
+  width: 30%;
+  margin: 2%;
+  padding: 20px;
+  box-shadow: 10px 10px 30px gray;
+}
+.actual-activities img {
+  width: 80%;
+}
+/* footer section start  */
 footer {
   background-color: black;
   padding: 10px 0;
